@@ -1,0 +1,8 @@
+tvseries=['DragonsDen','HorridHenry','Simpsons','FamilyGuy']
+for i in tvseries:
+    print(i)
+
+show=str(input('Enter another show...'))
+tvseries.append(show)
+print(tvseries)
+
