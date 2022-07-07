@@ -1,0 +1,31 @@
+def careerMode():
+    print('career mode')
+
+def tournamentMode():
+    print('tournament mode chosen')
+
+def onlineSeasons():
+    print('online seasons chosen')    
+
+
+
+def menu():
+    print('press 1 for career mode')
+    print('press 2 for tournament mode')
+    print('press 3 for online seasons')
+    print('press 4 to exit')
+
+    userInput = int(input('enter 1,2,3 or 4...'))
+
+    if userInput==1:
+        careerMode()
+    elif userInput==2:
+        tournamentMode()
+    elif userInput==3:
+        onlineSeasons()
+    else:
+        print('invalid input')
+        menu()
+
+
+menu()          
