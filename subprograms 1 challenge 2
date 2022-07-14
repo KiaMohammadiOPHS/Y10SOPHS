@@ -1,0 +1,32 @@
+def Domination():
+    print('domination mode')
+
+def teamDeathmatch():
+    print('team deathmatch chosen')
+
+def headquarters():
+    print('headquarters chosen')    
+
+
+
+def menu():
+    print('press 1 for headquarters')
+    print('press 2 for team deathmatch')
+    print('press 3 for headquarters')
+    print('press 4 to exit')
+
+    userInput = int(input('enter 1,2,3 or 4...'))
+
+
+    if userInput==1:
+        Domination()
+    elif userInput==2:
+        teamDeathmatch()
+    elif userInput==3:
+        headquarters()
+    else:
+        print('invalid input')
+        menu()
+
+
+menu() 
