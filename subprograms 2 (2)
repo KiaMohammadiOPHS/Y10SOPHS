@@ -1,0 +1,9 @@
+radius=int(input('enter the radius of your circle...'))
+pi=3.14159265359
+
+def areaofcircle():
+    print(pi*radius*radius,'this is your area')
+def circumference():
+    print(2*pi*radius,'this is your circumference')
+areaofcircle()
+circumference(
