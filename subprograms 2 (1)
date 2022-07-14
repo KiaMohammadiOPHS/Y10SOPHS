@@ -1,0 +1,9 @@
+name=input('whos the birthday boy/girl...')
+
+def happybday():
+    print('happy bday to you')
+    print('happybday to you')
+    print('happy bday dear',name)
+    print('happy bday to you!')
+
+happybday()
